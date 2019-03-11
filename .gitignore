@@ -7,3 +7,5 @@ dist-popup
 lib
 module
 node_modules
+src/safenetworkjs.js 
+src/safenetworkjs.js.map

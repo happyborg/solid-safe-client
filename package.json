@@ -1,11 +1,10 @@
 {
   "name": "solid-safe-client",
   "version": "0.0.1",
-  "description": "Authenticate solid clients on SAFE Network",
+  "description": "Authenticate Solid clients on SAFE Network",
   "repository": "git@github.com:solid/solid-safe-client.git",
   "author": "theWebalyst",
   "license": "GPL-3.0",
-
   "main": "lib/index-default.js",
   "browser": "browser/index.js",
   "module": "module/index.js",

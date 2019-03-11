@@ -9,7 +9,7 @@ import Footer from './Footer'
 const App = () => (
   <div>
     <nav>
-      <h1>Solid Auth Client Demo</h1>
+      <h1>Solid Auth Client Demo (SAFE)</h1>
       <AuthButtons />
     </nav>
     <Copy />

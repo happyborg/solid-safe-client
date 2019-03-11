@@ -14,9 +14,11 @@ Object.getOwnPropertyNames(SolidAuthClient.prototype).forEach(property => {
 })
 
 // Expose window.SolidAuthClient for backward compatibility
+//
+// This stays as SolidAuthClient so apps don't need to know about SAFE
 if (typeof window !== 'undefined') {
   if ('SolidAuthClient' in window) {
-    console.warn('Caution: multiple versions of solid-safe-client active.')
+    console.warn('Caution: multiple versions of solid-auth-client active.')
   } else {
     let warned = false
     Object.defineProperty(window, 'SolidAuthClient', {
